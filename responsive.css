@@ -1,0 +1,114 @@
+@media (min-width: 1000px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: block;
+  }
+
+  header h2 {
+    padding-left: 3rem;
+  }
+
+  .desktop-nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .desktop-nav ul li a {
+    display: inline-block;
+    padding: 1rem;
+    margin-right: 1rem;
+    font: inherit;
+    color: #000;
+  }
+
+  .desktop-nav ul li a:hover,
+  .desktop-nav ul li a:active,
+  .desktop-nav ul li a:focus,
+  .active {
+    outline: none;
+    border-bottom: 5px solid black;
+  }
+ 
+  .container {
+    padding: 2rem 4rem;
+  }
+
+  .contact-us {
+    width: 50%;
+  }
+
+  .card-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .card {
+    width: 30%;
+  }
+
+  .showcase-image {
+    margin-top: 5rem;
+  }
+
+  .showcase-image > h2 {
+    width: 29%;
+  }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+  }
+
+  .img-card:nth-child(1),
+  .img-card:nth-child(3) {
+    margin-top: 7rem;
+  }
+
+  .team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .team-info {
+    width: 40%;
+  }
+
+  .team-profile {
+    width: 50%;
+  }
+  .quote {
+    margin: 4rem 0;
+  }
+  .quote h2 {
+    width: 70%;
+  }
+
+  .profile {
+    margin-top: 1rem;
+  }
+
+  .footer {
+    margin: auto;
+  }
+
+  .footer-container {
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .footer-container > div {
+    margin-top: 2rem;
+    width: 30%;
+  }
+  .credit {
+    padding-top: 0rem;
+  }
+}
